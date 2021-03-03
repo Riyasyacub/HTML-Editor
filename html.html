@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+    <link rel="stylesheet" href="./css.css">
+    
+</head>
+<body>
+    <div class="code-area">
+        <textarea id="html-code" placeholder="HTML Code" oninput="showPreview()"  ></textarea>
+        <textarea id="css-code" placeholder="CSS Code" oninput="showPreview()" ></textarea>
+        <textarea id="js-code" placeholder="Java Script Code" oninput="showPreview()" ></textarea>
+    </div>
+    <div class="preview-area">
+        <iframe id="preview-window"></iframe>
+    </div>
+    
+    <script src="./js.js"></script>
+</body>
+</html>
